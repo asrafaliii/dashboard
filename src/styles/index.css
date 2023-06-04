@@ -1,0 +1,133 @@
+* {
+  font-family: "Questrial", sans-serif !important;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background: #b0b5c0;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* INPUTS $ LABEL RESET */
+label {
+  opacity: 0.7 !important;
+}
+
+.css-1x51dt5-MuiInputBase-input-MuiInput-input:-webkit-autofill,
+.css-1n4twyu-MuiInputBase-input-MuiOutlinedInput-input:-webkit-autofill {
+  -webkit-text-fill-color: #383f4e;
+  -webkit-box-shadow: 0 0 0 1000px #fff inset;
+  box-shadow: 0 0 0 1000px #fff inset !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.css-ume8vi-MuiInputBase-input-MuiInput-input:-webkit-autofill,
+.css-myb2s4-MuiInputBase-input-MuiOutlinedInput-input:-webkit-autofill {
+  -webkit-text-fill-color: #a1aabd;
+  -webkit-box-shadow: 0 0 0 1000px #111827 inset;
+  box-shadow: 0 0 0 1000px #111827 inset !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/* MATERIAL-UI BACKGROUNDS RESET */
+.MuiPaper-root {
+  background-image: none !important;
+  box-shadow: none !important;
+}
+
+.css-gqvhf0-MuiToolbar-root,
+.css-1f9hwop-MuiToolbar-root,
+.css-1a7b9sj-MuiTableRow-root,
+.css-10dg274-MuiTableRow-root {
+  background-color: #fff !important;
+}
+
+.css-nb926k-MuiToolbar-root,
+.css-17nxixo-MuiToolbar-root,
+.css-1kkrf96-MuiTableRow-root,
+.css-undddo-MuiTableRow-root {
+  background-color: #111827 !important;
+}
+
+.css-10dg274-MuiTableRow-root.MuiTableRow-hover:hover {
+  background-color: #e4edf4 !important;
+}
+
+.css-1kkrf96-MuiTableRow-root.MuiTableRow-hover:hover {
+  background-color: #192133 !important;
+}
+
+.MuiButton-root {
+  box-shadow: none !important;
+}
+
+/* Other styles */
+
+.apexcharts-menu-icon {
+  display: none;
+}
+
+.status {
+  padding: 3px 16px;
+  border-radius: 20px;
+}
+
+.css-9l5vo-MuiCollapse-wrapperInner .css-10hburv-MuiTypography-root {
+  font-size: 14px !important;
+}
+
+a.active > .linkBtn {
+  background-color: #172032 !important;
+  position: relative;
+}
+
+a.active > .linkBtn::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 5px;
+  left: 0;
+  top: 0;
+  background-color: #027edd;
+}
+
+.link {
+  color: #027edd !important;
+  text-decoration: none;
+}
+
+span.Pending {
+  color: #c49c1a;
+  background-color: #c49c1a33;
+}
+span.Delivered,
+span.Completed {
+  color: #388b84;
+  background-color: #388b8433;
+}
+span.Cancelled {
+  color: #fd4332;
+  background-color: #fd433233;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .hide-scrollbar::-webkit-scrollbar {
+    display: block;
+  }
+}
